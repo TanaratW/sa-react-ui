@@ -1,0 +1,160 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh; /* Full viewport height */
+}
+
+#Payment {
+  color: #002a48;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 60%; /* 59% width for Payment */
+}
+
+#Summary {
+  color: #002a48;
+  padding-top: 50px;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 40%;
+}
+
+.checkout {
+  display: flex;
+  height: 90px;
+  font-size: 40px;
+  font-weight: bolder;
+  gap: 0;
+}
+
+.summary,
+.payment-method {
+  display: flex;
+  font-size: 24px;
+  font-weight: bold;
+  gap: 0;
+}
+
+.summary {
+  margin-left: 70px;
+  margin-top: 30px;
+  height: 60px;
+}
+
+.cerdit-card {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.cerdit-card button {
+  display: flex;
+  width: 250px;
+  height: 65px;
+  text-align: start;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 16px;
+  gap: 10px;
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  border: 2px solid rgba(0, 0, 0, 0.3); /* ทำให้ขอบจางลง */
+  transition: border-color 0.3s ease, border-width 0.3s ease; /* Smooth transition */
+}
+
+.cerdit-card button:hover {
+  border-color: #d3ac2b; /* แสดงกรอบปุ่มเป็นสีทอง */
+  border-width: 2px; /* ทำให้กรอบหนาขึ้น */
+}
+
+.mini-text {
+  display: flex;
+  font-size: 16px;
+  gap: 0;
+}
+
+.long-input input {
+  font-size: 32px;
+  width: 500px;
+  height: 40px;
+}
+
+.short-input {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2px;
+  gap: 2px;
+}
+
+.short-input input {
+  font-size: 32px;
+  width: 245px;
+  height: 40px;
+}
+
+.mini-img {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  gap: 20px;
+}
+
+.mini-img img {
+  border-radius: 16px;
+}
+
+.mini-img .price {
+  display: flex;
+  margin-left: auto;
+}
+
+.og-price {
+  margin-left: 70px;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+}
+
+.total .price,
+.og-price .price {
+  display: flex;
+  margin-left: auto;
+}
+
+.horizontal-line {
+  height: 1px;
+  background-color: rgb(142, 142, 142);
+  margin-left: 70px;
+  margin-right: 60px;
+}
+
+.total {
+  margin-left: 70px;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.complete-checkout {
+  margin-left: 70px;
+}
+
+.complete-checkout button {
+  width: 350px;
+  height: 100px;
+  background-color: #d3ac2b;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  border: 0px;
+  margin-top: 5%;
+}
